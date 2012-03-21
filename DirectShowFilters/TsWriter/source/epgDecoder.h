@@ -89,7 +89,6 @@ public:
 	void	GrabEPG();
 	bool	IsEPGReady();
 	bool	IsEPGGrabbing();
-	bool    CanDecodeNetwork(int NetworkID);
 	ULONG	GetEPGChannelCount( );
 	ULONG	GetEPGEventCount( ULONG channel);
 	void	GetEPGChannel( ULONG channel,  WORD* networkId,  WORD* transportid, WORD* service_id  );
